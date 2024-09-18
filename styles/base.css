@@ -1,8 +1,9 @@
 :root {
-    --dark-1: #0C1618;
-    --light-1: #C6CAED;
-    --dark-2: #004643;
-    --light-2: #FFFFF9;
+    --dark-1: #807182;
+    --light-1: #C7D3BF;
+    --dark-2: #D8AA96;
+    --light-2: #F7B1AB
+;
 }
 h1, h2, h3 {
     font-family: 'VT323', monospace;
