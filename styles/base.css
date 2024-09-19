@@ -126,12 +126,12 @@ main {
     border-radius: 20px 20px 0px 0px;
     text-align: center;
 }
-.sidebyside {
+.aboutmetext {
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin: 20px;
 }
-.sidebysidewrap {
+.aboutmetextwrap {
     display: grid;
     margin: 20px;
     grid-template-rows: 1fr 1fr;
