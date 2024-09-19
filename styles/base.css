@@ -43,7 +43,7 @@ nav {
     padding: 0; 
     background-color: var(--dark-2);
 }
-nav:hover {
+nav a:hover {
     background-color: var(--dark-2);
     color: #FBFAF8;
 }
