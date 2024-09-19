@@ -56,7 +56,7 @@ nav ul {
 }
 .container {
     display:grid;
-    align-self:center;
+    align-self:left;
     height: 90%;
 }
 .container ul {
