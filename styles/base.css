@@ -56,11 +56,11 @@ nav ul {
 }
 .container {
     display:grid;
-    align-self:left;
+    align-self: center;
     height: 90%;
 }
 .container ul {
-    align-self: left;
+    align-self: center;
 }
 .card li {
     padding: 10px;
