@@ -31,7 +31,9 @@ header {
     margin: 0;
     padding: 0;
 }
-
+main {
+    color: #E7DECD;
+}
 header h1 {
     color: var(--light-1);
     background-color: var(--dark-1); 
