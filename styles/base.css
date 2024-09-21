@@ -162,7 +162,7 @@ hr {
     margin: 5px 30px;
 }
 footer {
-    background-color: var(--dark-1);
+    background-color: var(--light-1);
     color: var(--light-1);
     padding: 10px 30px;
     text-align: center;
