@@ -10,16 +10,17 @@ h1, h2, h3 {
     font-weight: 250;
     font-style: normal;
     font-size: 3em;
+    color: #FBFAF8;
 }
 h2, h3 {
     font-size: 2.5em;
-    color: #E7DECD;
+    color: #FBFAF8;
 }
 p {
     font-family: 'Montserrat', monospace;
     font-weight: 450;
     font-style: normal;
-    color: #E7DECD;
+    color: #FBFAF8;
 }
 body {
     font-family: 'Montserrat' , sans-serif;
@@ -32,7 +33,7 @@ header {
     padding: 0;
 }
 main {
-    color: #E7DECD;
+    color: #FBFAF8;
 }
 header h1 {
     color: var(--light-1);
