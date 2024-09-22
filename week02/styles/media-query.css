@@ -19,5 +19,8 @@ main{
 section{
     padding: 1rem;
     background-color: white;
-    border: 8px solid #877bef;
+    border: 7px solid #877bef;
+    outline: 3px solid #f0df80;
+    text-align: center;
+    text-decoration: #877bef;
 }
