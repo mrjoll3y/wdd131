@@ -7,12 +7,9 @@ header, main, footer{
     max-width: 640px;
     margin: 1rem auto;
     text-align: center;
-    border: 1.5px solid #e7d98c;
+    border: 1.5px solid #f0df80;
     padding: 1rem;
-    background-color: #100c32
-}
-h1,h2{
-    color:aliceblue;
+    background-color: #6457de
 }
 main{
     display: grid;
@@ -22,7 +19,4 @@ main{
 section{
     padding: 1rem;
     background-color: azure;
-}
-footer{
-    color: aliceblue;
 }
