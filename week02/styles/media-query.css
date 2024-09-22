@@ -10,6 +10,9 @@ header, main, footer{
     padding: 1.5rem;
     background-color: #100c32
 }
+h1,h2{
+    color:aliceblue;
+}
 main{
     display: grid;
     grid-template-columns: 1fr;
@@ -18,4 +21,7 @@ main{
 section{
     padding: 1.5rem;
     background-color: azure;
+}
+footer{
+    color: aliceblue;
 }
