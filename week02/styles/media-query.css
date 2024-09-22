@@ -6,6 +6,7 @@ body {
 header, main, footer{
     max-width: 640px;
     margin: 1rem auto;
+    text-align: center;
     border: 1.5px solid #e7d98c;
     padding: 1.5rem;
     background-color: #100c32
