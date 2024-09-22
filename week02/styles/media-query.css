@@ -8,7 +8,7 @@ header, main, footer{
     margin: 1rem auto;
     text-align: center;
     border: 1.5px solid #e7d98c;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: #100c32
 }
 h1,h2{
@@ -20,7 +20,7 @@ main{
     grid-gap: 1rem;
 }
 section{
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: azure;
 }
 footer{
