@@ -9,7 +9,7 @@ header, main, footer{
     text-align: center;
     border: 3px solid #f0df80;
     padding: 1rem;
-    background-color: #877bef
+    background-color: lightskyblue;
 }
 main{
     display: grid;
