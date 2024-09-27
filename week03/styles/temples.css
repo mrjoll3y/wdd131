@@ -45,6 +45,7 @@ h2 {
 .gridcontainer{
     display: grid;
     border: 3px solid #39375B;
+    box-shadow: #daa520;
     text-align: center;
     color: #39375B;
     grid-template-columns: 1fr 1fr 1fr;
