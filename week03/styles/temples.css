@@ -15,8 +15,8 @@ nav a {
     text-decoration: none;
 }
 nav a:hover{
-    border: 2px solid green;
+    border: 2px solid #daa520;
 }
 .active{
-    color: burlywood;
+    color: azure;
 }
