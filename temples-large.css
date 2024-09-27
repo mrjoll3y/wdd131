@@ -1,0 +1,13 @@
+@media screen and (min-width: 500px) {
+nav ul {
+    display: flex;
+}
+main
+{ 
+    grid-template-columns: 1fr 1fr
+}
+nav ul li {
+    flex: 1 1 100%;
+}
+
+}
