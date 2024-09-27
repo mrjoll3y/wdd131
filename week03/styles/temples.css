@@ -2,6 +2,9 @@ header {
     text-align: center;
     padding: 1em;
     background-color: #39375B ;
+    color: #daa520;
+    font-weight: bolder;
+    text-decoration: solid #FFFF;
 }
 nav {
     background-color: #39375B;
