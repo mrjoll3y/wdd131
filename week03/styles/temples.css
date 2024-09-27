@@ -1,5 +1,5 @@
 nav {
-    background-color: darkslateblue;
+    background-color: #39375B;
     margin: 0 auto;
     max-width: 900px;
 }
@@ -9,7 +9,7 @@ nav ul {
 
 nav a {
     display: block;
-    color:azure;
+    color:goldenrod;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
