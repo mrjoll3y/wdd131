@@ -1,0 +1,22 @@
+nav {
+    background-color: darkslateblue;
+    margin: 0 auto;
+    max-width: 900px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color:azure;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover{
+    border: 2px solid green;
+}
+.active{
+    color: burlywood;
+}
