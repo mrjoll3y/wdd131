@@ -1,39 +1,31 @@
-@media screen and (max-width: 400px) {
-    .menu-button {
-        display: block;
-    }
-    
-    nav ul {
-        display:none; 
-        flex-direction:column;
-        position:fixed;
-        top: 300px;
-        right: 0;
-        width: 50%;
-        z-index: 1;
-    }
-
-    nav ul li {
-        margin: 0;
-    }
-
-    nav ul li a {
-        display: block;
-        padding: 15px 0;
-        text-align: right;
-    }
-
-    nav.open ul {
-        display:flex;
-    }
-}
-.menu-button{
-    align-content:flex-end;
-    text-align: right;
-}
+a#menu::before {
+    content: "≡";
+  }
+  
+a#menu {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  
+a#menu.show {
+    align-self: start;
+  }
+  
+a#menu.show::before {
+    content: "×";
+  }
+nav.show {
+    display: flex;
+  }
+  
+.hide {
+    display: none;
+  }
 header {
     text-align: center;
     padding: 1rem;
+    margin: auto;
     background-color: #39375B ;
     color: #daa520;
     font-weight: bolder;
@@ -41,19 +33,22 @@ header {
 
 main {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 1rem;
 }
 nav {
-    justify-content: flex-start;
+    display: none;
+    margin-top: auto;
+    justify-content: center;
     background-color: #39375B;
-    margin: 0 auto;
-    max-width: 1400px;
-    padding: 1rem;
+    margin: 0;
+    max-width: 600px;
 }
 nav ul {
     justify-content: center;
+    flex-direction: column;
     list-style-type: none;
+    align-items: center;
     margin: 0;
     padding: 0;
     display: flex;
@@ -100,50 +95,7 @@ footer{
     text-align: center;
     color: #daa520;
     padding: 1rem;
+    margin: auto;
     background-color: #39375B;
 
-}
-.menu-button {
-    display: none; /* Hidden by default */
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px;
-}
-
-nav.open ul {
-    display: block; /* Show menu items when nav has class 'open' */
-}
-
-@media screen and (max-width: 600px) {
-    .menu-button {
-        display: block;
-    }
-    
-    nav ul {
-        display: none; 
-        flex-direction: column;
-
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        z-index: 1;
-    }
-
-    nav ul li {
-        margin: 0;
-    }
-
-    nav ul li a {
-        display: block;
-        padding: 15px 0;
-        text-align: center;
-    }
-
-    nav.open ul {
-        display: flex;
-    }
 }
