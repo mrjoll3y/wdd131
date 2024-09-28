@@ -15,7 +15,7 @@ nav {
     background-color: #39375B;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 nav ul {
     justify-content: flex;
