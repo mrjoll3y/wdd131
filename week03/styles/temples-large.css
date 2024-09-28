@@ -10,4 +10,7 @@ nav ul {
     grid-template-rows: auto;
     gap: 15px;
 }
+nav ul li {
+    flex: 1 1 100%;
+}
 }
