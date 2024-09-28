@@ -11,12 +11,14 @@ body {
     padding: 0;
 }
 nav {
+    justify-content: flex-end;
     background-color: #39375B;
     margin: 0 auto;
     max-width: 1400px;
     padding: 1rem 0;
 }
 nav ul {
+    justify-content: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
