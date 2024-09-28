@@ -3,7 +3,11 @@ nav ul {
     display: flex;
 }
 .gridcontainer{
+    display: grid;
+    text-align: center;
     grid-template-columns: 1fr;
+    color: #39375B;
+
 }
 main
 { 
