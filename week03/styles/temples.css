@@ -5,6 +5,11 @@ header {
     color: #daa520;
     font-weight: bolder;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 nav {
     background-color: #39375B;
     margin: 0 auto;
@@ -59,4 +64,5 @@ footer{
     color: #daa520;
     padding: 1rem;
     background-color: #39375B;
+
 }
