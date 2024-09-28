@@ -5,6 +5,9 @@ header {
     color: #daa520;
     font-weight: bolder;
 }
+h1{
+    font-size: x-large;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
