@@ -1,17 +1,14 @@
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
 nav ul {
     display: flex;
 }
 .gridcontainer{
     display: grid;
     text-align: center;
-    grid-template-columns: 1fr;
     color: #39375B;
-
-}
-main
-{ 
-    grid-template-columns: 1fr
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
 }
 nav ul li {
     flex: 1 1 100%;
