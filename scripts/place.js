@@ -35,14 +35,14 @@ function calculateWindChill(temperature, windSpeed) {
 //Create object for weather section data
 const weatherData = {};
 
-let temp = 26;
+let temp = 31;
 const tempData = temp + " &#8451;"; //Celsius symbol
 weatherData.temperature = tempData;
-weatherData.condition = "Clear";
-let windSpeed = 21;
+weatherData.condition = "Partly Cloudy";
+let windSpeed = 11;
 const windData = windSpeed + " km/h";
 weatherData.wind = windData;
-if (temp <= 10 && windSpeed > 4.8) {
+if (temp <= 31 && windSpeed > 4.8) {
     let windChillData = `${calculateWindChill(temp, windSpeed).toFixed(1)} &#8451;`;
     weatherData.windChill = windChillData;
 } else {
@@ -88,11 +88,11 @@ function calculateWindChill(temperature, windSpeed) {
 //Create object for weather section data
 const weatherData = {};
 
-let temp = 26;
+let temp = 32;
 const tempData = temp + " &#8451;"; //Celsius symbol
 weatherData.temperature = tempData;
-weatherData.condition = "Clear";
-let windSpeed = 21;
+weatherData.condition = "Sunny";
+let windSpeed = 3;
 const windData = windSpeed + " km/h";
 weatherData.wind = windData;
 if (temp <= 10 && windSpeed > 4.8) {
