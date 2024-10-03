@@ -64,14 +64,14 @@ let lastMod = document.lastModified;
 lastModified.innerHTML = `Last Modified: ${lastMod}`;
 
 const data = {
-    area: "28,311 sq km",
-    population: "1,455,271",
-    capital: "Honolulu",
-    languages: "English, Hawaiian",
-    currency: "US Dollar",
-    timeZone: "UTC-10",
-    callingCode: "+808",
-    internetTld: ".us"
+    area: "647.33 km 2 (249.94 sq mi)",
+    population: "126.2 Million",
+    capital: "Mexixo City",
+    languages: "Spanish",
+    currency: "Mexican Peso",
+    timeZone: "	EST — Eastern Standard Time (UTC/GMT -5 hours)",
+    callingCode: "+987",
+    internetTld: ".mx"
 }
 
 let dataSection = document.querySelector("#data-table");
