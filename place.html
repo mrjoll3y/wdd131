@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore [Country/Place]</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js" defer></script>
+    <meta name="author" content="Callen Jolley">
+    <meta name="description" content="Week 3 - WDD 131 - Callen Jolley - place ">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <title>Place Page</title>
+    <script src="scripts/place.js" defer></script>
 </head>
+
 <body>
     <header>
-        <h1>Welcome to [Country/Place]</h1>
-        <img src="images/hero.webp" srcset="images/hero-small.webp 500w, images/hero-large.webp 1000w" alt="[Description of the image]">
+        <h1>Cozumel, Mexico</h1>
     </header>
-
     <main>
-        <section id="weather">
-            <h2>Weather ⛅</h2>
-            <p id="temperature">Temperature: [Temperature]</p>
-            <p id="wind-speed">Wind Speed: [Wind Speed]</p>
-            <p id="wind-chill">Wind Chill: <span id="chill"></span></p>
-        </section>
-
-        <section id="attractions">
-            <h2>Attractions</h2>
-            <p>[Description of attractions]</p>
-        </section>
-
-        <section id="footer">
-            <p>Current Year: <span id="current-year"></span></p>
-            <p>Last Modified: <span id="last-modified"></span></p>
-        </section>
+        <div class="child-main">
+            <div class="hero">
+                <picture>
+                    <source media="(min-width: 1000px)" srcset="images/cozumel-large.webp">
+                    <source media="(min-width: 500px)" srcset="images/cozumel-medium.webp">
+                    <img src="images/cozumel-small.webp"
+                        alt="picture of a beach in Cozumel. The large version shows tropical fish."
+                        width="500" height="500">
+                </picture>
+            </div>
+            <section class="data-section">
+                <h2>Data</h2>
+                <table>
+                    <tbody id="data-table"></tbody>
+                </table>
+            </section>
+            <section class="weather-section">
+                <h2>Weather</h2>
+                <img src="images/1530391_weather_clouds_sun_sunny_icon (1).png" alt="weather icon">
+                <table>
+                    <tbody id="weather-table"></tbody>
+                </table>
+            </section>
+        </div>
     </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Callen Jolley - USA </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>
