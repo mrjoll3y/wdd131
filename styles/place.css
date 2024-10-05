@@ -3,22 +3,21 @@
     --compliment-color: #FCAD21;
     --text-color: white;
     --accent-color: #6FD8FF;
-    --font-family-primary: "Luckiest Guy", cursive;
-    --font-family-secondary: Arial, Helvetica, sans-serif;
+    --font-family-primary: "Milonga", cursive;
+    --font-family-secondary: 'Zilla Slab', Serif, sans-serif;
     --header-padding: 1rem;
     --section-padding: 2rem;
     --table-padding: 2rem;
     --footer-padding: 1rem;
 }
 
-/* Basic Layout Styles */
 body {
-    font-family: 'Zilla Slab', serif; /* Default font */
+    font-family: 'Zilla Slab', serif; 
 }
 
-/* Header */
+
 h1 {
-    font-family: 'Milonga', serif; /* Aztec-like font for headings */
+    font-family: 'Milonga', serif; 
     text-align: center;
     font-weight: 700;
     font-size: 4rem;
@@ -26,9 +25,9 @@ h1 {
     letter-spacing: 0.3rem;
 }
 
-/* Section Headings */
+
 section h2 {
-    font-family: 'Milonga', serif; /* Apply the same for section headings */
+    font-family: 'Milonga', serif; 
     font-weight: 700;
     font-size: 2rem;
     background-color: darkgreen;
@@ -37,7 +36,6 @@ section h2 {
     margin: 0;
 }
 
-/* Footer */
 footer {
     font-family: 'Zilla Slab', serif;
     font-size: 1.2rem;
@@ -57,7 +55,7 @@ h1 {
     letter-spacing: 1rem;
 }
 
-/* Hero Section */
+
 .hero {
     background-color: var(--compliment-color);
     padding-top: 1rem;
@@ -68,23 +66,24 @@ h1 {
     object-fit: cover;
 }
 
-/* Weather Section */
+
 .weather-section img {
     max-width: 100px;
     display: block;
     margin: 0 auto;
 }
 
-/* Section Titles */
+
 section h2 {
     font-family: var(--font-family-primary);
     font-weight: 400;
     text-align: center;
 }
 
-/* Table Styling */
+
 table {
     font-family: var(--font-family-secondary);
+    font-size: small;
     padding: var(--table-padding);
     padding-top: 0;
     margin: auto;
@@ -104,7 +103,6 @@ th::first-letter {
     text-transform: capitalize;
 }
 
-/* Footer Styling */
 footer {
     background-color: var(--dark-color);
     color: var(--text-color);
@@ -124,7 +122,6 @@ footer {
     color: var(--accent-color);
 }
 
-/* Responsive Styles */
 @media (max-width: 600px) {
     h1 {
         font-size: 1.5rem;
