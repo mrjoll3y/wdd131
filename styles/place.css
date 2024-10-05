@@ -11,6 +11,7 @@
     --footer-padding: 1rem;
 }
 
+
 body {
     font-family: 'Zilla Slab', serif; 
 }
@@ -36,6 +37,7 @@ section h2 {
     margin: 0;
 }
 
+
 footer {
     font-family: 'Zilla Slab', serif;
     font-size: 1.2rem;
@@ -55,7 +57,7 @@ h1 {
     letter-spacing: 1rem;
 }
 
-
+/* Hero Section */
 .hero {
     background-color: var(--compliment-color);
     padding-top: 1rem;
@@ -103,6 +105,7 @@ th::first-letter {
     text-transform: capitalize;
 }
 
+
 footer {
     background-color: var(--dark-color);
     color: var(--text-color);
@@ -121,6 +124,7 @@ footer {
 #studentNameTitle {
     color: var(--accent-color);
 }
+
 
 @media (max-width: 600px) {
     h1 {
