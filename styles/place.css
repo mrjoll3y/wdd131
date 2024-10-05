@@ -2,69 +2,115 @@
     --dark-color: #5B4F13;
     --compliment-color: #FCAD21;
     --text-color: white;
+    --accent-color: #6FD8FF;
+    --font-family-primary: "Luckiest Guy", cursive;
+    --font-family-secondary: Arial, Helvetica, sans-serif;
+    --header-padding: 1rem;
+    --section-padding: 2rem;
+    --table-padding: 2rem;
+    --footer-padding: 1rem;
 }
 
+/* Basic Layout Styles */
+body {
+    font-family: 'Zilla Slab', serif; /* Default font */
+}
+
+/* Header */
+h1 {
+    font-family: 'Milonga', serif; /* Aztec-like font for headings */
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--text-color);
+    letter-spacing: 0.3rem;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: 'Milonga', serif; /* Apply the same for section headings */
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: darkgreen;
+    color: white;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--text-color);
+}
 header {
-    padding: 1rem;
+    padding: var(--header-padding);
     background-color: var(--dark-color);
 }
 
 h1 {
     text-align: center;
     color: var(--text-color);
-    font-family: "Luckiest Guy", cursive;
+    font-family: var(--font-family-primary);
     font-weight: 500;
-    font-style: normal;
     letter-spacing: 1rem;
 }
 
+/* Hero Section */
+.hero {
+    background-color: var(--compliment-color);
+    padding-top: 1rem;
+}
 
 .hero img {
     width: 100%;
     object-fit: cover;
 }
 
-
-.hero {
-    background-color: var(--compliment-color);
-    padding-top: 1rem;
-}
-
+/* Weather Section */
 .weather-section img {
     max-width: 100px;
     display: block;
     margin: 0 auto;
 }
 
+/* Section Titles */
 section h2 {
-    font-family: "Luckiest Guy", cursive;
+    font-family: var(--font-family-primary);
     font-weight: 400;
-    font-style: normal;
     text-align: center;
 }
 
+/* Table Styling */
 table {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 2rem;
+    font-family: var(--font-family-secondary);
+    padding: var(--table-padding);
     padding-top: 0;
     margin: auto;
 }
 
+th,
+td {
+    padding: 0.5rem;
+}
+
 th {
     text-align: right;
+    padding-right: 1rem;
 }
 
 th::first-letter {
     text-transform: capitalize;
 }
 
+/* Footer Styling */
 footer {
     background-color: var(--dark-color);
     color: var(--text-color);
-    padding: 1rem;
-    font-family: "Luckiest Guy", cursive;
+    padding: var(--footer-padding);
+    font-family: var(--font-family-primary);
     font-weight: 400;
-    font-style: normal;
     text-align: center;
     font-size: larger;
 }
@@ -75,5 +121,26 @@ footer {
 
 #lastModified,
 #studentNameTitle {
-    color: #6FD8FF;
+    color: var(--accent-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+        letter-spacing: 0.5rem;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    th, td {
+        padding: 0.2rem;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: medium;
+    }
 }
