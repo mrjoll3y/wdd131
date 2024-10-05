@@ -1,31 +1,31 @@
 @media screen and (min-width: 720px) {
     h1 {
         font-size: 4vw;
-        max-font-size: 48px; /* Optional: Cap the max size for better control */
+        max-font-size: 48px; 
     }
 
     .child-main {
-        position: relative; /* Ensure parent container is positioned */
+        position: relative; 
     }
 
     .child-main section {
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.85); /* Only apply opacity to background */
-        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5); /* Adjust shadow for consistency */
+        background-color: rgba(255, 255, 255, 0.85); 
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5); 
         padding: 1rem;
-        border-radius: 8px; /* Optional: Add rounded corners for style */
+        border-radius: 8px; 
     }
 
     .data-section {
         top: 2rem;
         left: 2rem;
-        z-index: 2; /* Ensure it appears above other elements if needed */
+        z-index: 2; 
     }
 
     .weather-section {
         bottom: 2rem;
         right: 2rem;
-        z-index: 1; /* Adjust stacking order */
+        z-index: 1; 
     }
 
     section h2 {
@@ -33,15 +33,15 @@
         background-color: darkgreen;
         color: white;
         padding: 1rem;
-        margin: 0; /* Remove default margins */
-        border-bottom: 4px solid var(--compliment-color); /* Add border for style */
+        margin: 0; 
+        border-bottom: 4px solid var(--compliment-color); 
     }
 
     .weather-section img {
-        display: none; /* Hide image as intended */
+        display: none; 
     }
 
     .weather-section h2::after {
         content: "⛅";
-        margin-left: 0.5rem; /* Optional: Spacing between text and icon */
+        margin-left: 0.5rem; 
     }
