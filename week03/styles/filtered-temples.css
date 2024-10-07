@@ -1,0 +1,109 @@
+/* Example CSS for Temple Cards */
+.templeCard {
+    border: 1px solid #daa520;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a#menu::before {
+    content: "≡";
+  }
+  
+a#menu {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  
+a#menu.show {
+    align-self: start;
+  }
+  
+a#menu.show::before {
+    content: "×";
+  }
+nav.show {
+    display: flex;
+  }
+  
+.hide {
+    display: none;
+  }
+header {
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    background-color: #39375B ;
+    color: #daa520;
+    font-weight: bolder;
+}
+
+main {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    padding: 1rem;
+}
+nav {
+    display: none;
+    margin-top: auto;
+    justify-content: center;
+    background-color: #39375B;
+    margin: 0;
+    max-width: 600px;
+}
+nav ul {
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color:#daa520;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover{
+    border: 5px solid #daa520;
+}
+
+nav ul li:active{
+    color: #FFFF;
+}
+main {
+    max-width: 1400px;
+    margin: 0;
+    padding: 1rem;   
+}
+
+h2 {
+    text-align: center;
+    color: #39375B;
+    padding: 1rem;
+    font-size: large;
+}
+.gridcontainer{
+    display: grid;
+    text-align: center;
+    color: #39375B;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+figcaption{
+    margin-top: 6px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    color: #daa520;
+    padding: 1rem;
+    margin: auto;
+    background-color: #39375B;
+
+}
