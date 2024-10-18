@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/form.css">
+    <meta name="description"
+        content="Week five Dynamic Web Fundamentals - by Callen Jolley - review form" >
+    <meta name="author" content="Callen Jolley">
+
+
+    <title>Product Review Form</title>
+</head>
+<header>
+    <h1>Product Review</h1>
+</header>
+<body>
+    <form action="review.html" method="get">
+        
+        <label for="product">Product Name:</label>
+        <select id="product" name="product" required>
+            <option value="" disabled selected>Select a Product...</option>
+            
+        </select>
+
+        
+        <label for="rating">Overall Rating:</label>
+        <div id="rating">
+            <input type="radio" id="star1" name="rating" value="1" required>
+            <label for="star1">&starf;</label>
+            <input type="radio" id="star2" name="rating" value="2" required>
+            <label for="star2">&starf;</label>
+            <input type="radio" id="star3" name="rating" value="3" required>
+            <label for="star3">&starf;</label>
+            <input type="radio" id="star4" name="rating" value="4" required>
+            <label for="star4">&starf;</label>
+            <input type="radio" id="star5" name="rating" value="5" required>
+            <label for="star5">&starf;</label>
+        </div>
+
+        
+        <label for="install-date">Date of Installation:</label>
+        <input type="date" id="install-date" name="install-date" required>
+
+        
+        <label for="features">Useful Features:</label>
+        <div id="features">
+            <input type="checkbox" id="feature1" name="features" value="feature1">
+            <label for="feature1">Durability</label>
+    
+            <input type="checkbox" id="feature2" name="features" value="feature2">
+            <label for="feature2">Design</label>
+    
+            <input type="checkbox" id="feature3" name="features" value="feature3">
+            <label for="feature3">Performance</label>
+    
+            <input type="checkbox" id="feature4" name="features" value="feature4">
+            <label for="feature4">Ease of Use</label>
+        </div>
+
+        
+        <label for="review">Written Review (Optional):</label>
+        <textarea id="review" name="review"></textarea>
+
+        
+        <label for="username">Your Name (Optional):</label>
+        <input type="text" id="username" name="username">
+
+        
+        <input type="submit" value="Submit Review">
+    </form>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> - Callen Jolley - USA</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
